@@ -1,4 +1,4 @@
-# Media File Naming
+# Anime File Naming
 
 ```
 yarn install
