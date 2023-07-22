@@ -442,6 +442,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"anime-file-naming@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "anime-file-naming@workspace:."
+  dependencies:
+    "@total-typescript/ts-reset": ^0.4.2
+    "@types/express": ^4.17.17
+    "@types/node": ^20.2.3
+    "@yarnpkg/sdks": ^3.0.0-rc.44
+    anidb-udp-client: ^1.1.1
+    dotenv: ^16.3.1
+    express: ^4.18.2
+    mal-scraper: ^2.13.1
+    myanimelist-oauth: ^1.0.2
+    rxjs: ^7.8.1
+    ts-node: ^10.9.1
+    typescript: ^5.1.6
+  languageName: unknown
+  linkType: soft
+
 "ansi-regex@npm:^5.0.1":
   version: 5.0.1
   resolution: "ansi-regex@npm:5.0.1"
@@ -1378,9 +1397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mal-scraper@patch:mal-scraper@npm%3A2.13.1#./.yarn/patches/mal-scraper-npm-2.13.1-8a68a57707.patch::locator=media-file-naming%40workspace%3A.":
+"mal-scraper@patch:mal-scraper@npm%3A2.13.1#./.yarn/patches/mal-scraper-npm-2.13.1-8a68a57707.patch::locator=anime-file-naming%40workspace%3A.":
   version: 2.13.1
-  resolution: "mal-scraper@patch:mal-scraper@npm%3A2.13.1#./.yarn/patches/mal-scraper-npm-2.13.1-8a68a57707.patch::version=2.13.1&hash=ee9ee7&locator=media-file-naming%40workspace%3A."
+  resolution: "mal-scraper@patch:mal-scraper@npm%3A2.13.1#./.yarn/patches/mal-scraper-npm-2.13.1-8a68a57707.patch::version=2.13.1&hash=ee9ee7&locator=anime-file-naming%40workspace%3A."
   dependencies:
     axios: ^1.4.0
     cheerio: ^1.0.0-rc.12
@@ -1398,25 +1417,6 @@ __metadata:
   checksum: a4b02b676ac4ce64a89a091539ee4a70a802684713bcf06f2b70787927f510fe8a2adc849f9288857a90906083ad303467e530e8723b4a9756df9994fc164550
   languageName: node
   linkType: hard
-
-"media-file-naming@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "media-file-naming@workspace:."
-  dependencies:
-    "@total-typescript/ts-reset": ^0.4.2
-    "@types/express": ^4.17.17
-    "@types/node": ^20.2.3
-    "@yarnpkg/sdks": ^3.0.0-rc.44
-    anidb-udp-client: ^1.1.1
-    dotenv: ^16.3.1
-    express: ^4.18.2
-    mal-scraper: ^2.13.1
-    myanimelist-oauth: ^1.0.2
-    rxjs: ^7.8.1
-    ts-node: ^10.9.1
-    typescript: ^5.1.6
-  languageName: unknown
-  linkType: soft
 
 "media-typer@npm:0.3.0":
   version: 0.3.0
